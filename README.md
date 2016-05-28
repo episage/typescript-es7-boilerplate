@@ -10,9 +10,9 @@ This is up-to-date (as of May 2016) development boilerplate for **Pro TypeScript
 Frameworks
 ---------------------
 
-- **TypeScript 1.8** (feat. async/await/yield & ES7 feeling)
-- **Gulp 4** (feat. bundled series/parallel task execution)
-- **Mocha & Mocha** (de facto standard)
+- **TypeScript 1.8** feat. async/await/yield & ES7 feeling
+- **Gulp 4** feat. bundled series/parallel task execution
+- **Mocha & Chai** de facto standard
 
 Usage
 ---------------------
