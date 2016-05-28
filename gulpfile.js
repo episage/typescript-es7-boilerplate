@@ -13,10 +13,10 @@ var del = require('del');
 
 // Subtasks
 function cleanDist() {
-    return del(['./dist/**']);
+    return del(['dist/**', '!dist']);
 };
 function cleanBuild() {
-    return del(['./build/**']);
+    return del(['build/**', '!build']);
 };
 function clearScreen(done) {
     clear();
