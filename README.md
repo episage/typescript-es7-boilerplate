@@ -11,16 +11,9 @@ Frameworks
 ---------------------
 
 - **TypeScript 1.8** feat. async/await/yield & ES7 feeling
+- **Babel** feat. ES7 to ES5 transpilation
 - **Gulp 4** feat. bundled series/parallel task execution
 - **Mocha & Chai** de facto standard
-
-Usage
----------------------
-
-```bash
-npm i
-npm run build
-```
 
 Examples attached
 ---------------------
@@ -30,6 +23,14 @@ Examples attached
 - examples in Mocha & Chai `src/test/sample-test.spec.ts`
 - correct typings resolution for all `*.ts` files
 - correct .gitignore
+
+Usage
+---------------------
+
+```bash
+npm i
+npm run build
+```
 
 Dev & Contrb
 --------------------
