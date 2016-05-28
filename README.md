@@ -46,6 +46,6 @@ If it supports JavaScript, it probably supports this boilerplate
 Contact
 --------------------
 
-tilosag at gmail.com
+tilosag at gmail com
 
 Project is based on my own JS experiences
