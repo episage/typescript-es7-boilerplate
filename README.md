@@ -25,11 +25,37 @@ Examples attached
 - correct typings resolution for all `*.ts` files
 - correct .gitignore
 
-Usage
+Installation
 ---------------------
 
 ```bash
 npm i
+```
+
+Test Driven Development
+---------------------
+
+Execute tests on any `*.ts` file change
+
+```bash
+npm run tdd
+```
+
+Test
+---------------------
+
+Run tests once
+
+```bash
+npm run test
+```
+
+Build
+---------------------
+
+Just build to `./build` dir
+
+```bash
 npm run build
 ```
 
