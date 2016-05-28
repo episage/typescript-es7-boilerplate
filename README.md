@@ -11,6 +11,7 @@ Frameworks
 ---------------------
 
 - **TypeScript 1.8** feat. async/await/yield & ES7 feeling
+- **typings** feat. TypeScript autocomplete
 - **Babel** feat. ES7 to ES5 transpilation
 - **Gulp 4** feat. bundled series/parallel task execution
 - **Mocha & Chai** de facto standard
