@@ -48,4 +48,4 @@ Contact
 
 tilosag at gmail com
 
-Project is based on my own JS experience
+This project is based on my own JavaScript experience
