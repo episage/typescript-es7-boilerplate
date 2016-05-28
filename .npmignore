@@ -1,0 +1,11 @@
+/.vscode
+/coverage
+/node_modules
+/src
+/typings
+
+.gitattributes
+.gitignore
+.editorconfig
+/tsconfig.json
+*.tgz
