@@ -3,7 +3,7 @@
 
 Living on the edge?
 
-Missing code `like it's 2016` feeling?
+Missing `code like it's 2016` feeling?
 
 This is up-to-date (as of May 2016) development boilerplate for **Pro TypeScript Rockstar Ninjas**
 
