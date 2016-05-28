@@ -3,7 +3,7 @@
 import "babel-polyfill";
 
 import {CalculatorClass as Calculator} from './CalculatorClass';
-import * as Models from './models';
+import * as Models from './Models';
 import {UniqueIdGenerator as Id} from './Utils/UniqueIdGenerator';
 
 let sampleAwaitUsage = async () => {
