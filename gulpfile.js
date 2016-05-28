@@ -1,3 +1,7 @@
+// http://babeljs.io/docs/usage/polyfill/
+// To include the babel polyfill you need to require it at the top of the entry point to your application.
+require("babel-polyfill");
+
 var gulp = require('gulp');
 var ts = require('gulp-typescript');
 var babel = require('gulp-babel');
@@ -44,9 +48,9 @@ var build = gulp.series(clearScreen, gulp.parallel(cleanDist, cleanBuild), build
 var test = gulp.series(build, copyTestData, runMocha);
 
 function runTDD() {
-    gulp.watch(['src/test/**/*.spec.ts', 'src/test/**/*.json'], {
+    gulp.watch(['src/**/*.ts', 'src/test/**/*.json'], {
         ignoreInitial: false
-    }, test);
+    }, gulp.series(build, copyTestData, runMocha));
 }
 
 // Expose
